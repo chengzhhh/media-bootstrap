@@ -1,0 +1,131 @@
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #f5f5f5;
+}
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+.container {
+    background-color: #fff;
+}
+header {
+    padding-left: 0px!important;
+}
+.logo {
+    background-color: #429ad9;
+}
+.logo img {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+}
+header li { 
+    height: 50px;
+    line-height: 50px;
+    background-color: #EEEEEE;
+}
+@media screen and (max-width: 991px) {
+    header li {
+        float: left;
+        width: 20%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo_img {
+        width: 100%!important;
+        height: 50px!important;
+        text-align: center;
+         line-height: 50px;
+         font-size: 16px;
+         font-weight: 700;
+         color: #fff;
+    }
+    header li a {
+        padding-left: 0px!important;
+        text-align: center;
+    }
+    .logo li a span {
+        font-size: 12px;
+    }
+    article li {
+        width: 50%!important;
+        height: 128px!important;
+    }
+    article li:nth-child(1) {
+        width: 100%!important;
+        height: 266px!important;
+    }
+}
+header li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #666;
+}
+header li a span::before {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+/* article部分 */
+article {
+    margin-top: 10px;
+}
+article li {
+    float: left;
+    width: 25%;
+    height: 128px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+article li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+article li img {
+    width: 100%;
+    height: 100%;
+}
+article li:nth-child(1) {
+    width: 50%;
+    height: 266px;
+}
+/* publish部分 */
+.publish {
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.publish-left {
+    padding-left: 0px;
+}
+.publish-right {
+    margin-top: 10px;
+}
+.publish-right img {
+    width: 100%;
+}
+/* aside部分 */
+.shark_link img {
+    width: 100%;
+}
+.jhon {
+    position: relative;
+    padding: 40px 20px 20px 20px;
+    font-size: 12px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.jhon span {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    border-radius: 0;
+}
